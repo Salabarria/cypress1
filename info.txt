@@ -1,0 +1,42 @@
+1-chequear que se tiene instalado node.js
+para eso se chequea con el comando:
+ node --version en la terminal de VS code o con la ventana cmd
+2- Despues poner en la terminal de VS code el comando  npm install cypress --save-dev
+esto nos instalara las librerias de cypress en esta carpeta., la cual no tenia nada.
+ en el directorio de la carpeta se crea  una capeta node_modules con todas las librerias y modulos
+ y los ficheros json package-lock.json y package.json
+
+3- instalar npx con el comando npm install -g npx 
+
+4 - ejecutar el comando  npx cypress open
+este abrira la interfaz grafica que trae cypress para ejectar pruebas automatizadas de manera grafica
+
+5 - COn la GUI de cypress nos permite elejir si deseamos realizar test e2e o de componentes y 
+, esto habilitara una series de pruebas ya definidas que se pueden correr para verificar el 
+funcionamiento del sistema. 
+ademas nos crea en la raiz del proyecto otra carpeta con nombre cypres donde almacenara ciertos
+parametros del proyecto.
+6- despues aparece una ventana de esocger ejemplo ya definidos o realizar uno desde cero.
+cuando se escoge los elementos o test ya definos cypress crea en nuestro proyecto una carpeta e2e
+donde aparacera los test en ellas estan divididas dos carpetas getting-started y advanced-exaples
+donde estan los test predefinidos por cypress.
+estos test son ficheros 
+name.cy.js
+
+Para acaabr con la ejecucion de cypress si utiliza el juego de tecla Control+c
+^C^C¿Desea terminar el trabajo por lotes (S/N)? s
+ y nos brindara un
+mensaje si deseamos terminar nestro trabajo y se selecciona S. esto saldra de la consola y nos dejara
+el la direccion de nestro proyecto.
+PS D:\Project_Cypress\Cypress1> 
+
+los plugin para utilizar diferentes cosas en cypress  son excelente, tener conocimientos de ellos
+es muy importante
+npm install -D cypress-xpath en consola y depues para utilizarlo se pone en el codigo
+require("cypress-xpath")
+
+
+
+
+
+
